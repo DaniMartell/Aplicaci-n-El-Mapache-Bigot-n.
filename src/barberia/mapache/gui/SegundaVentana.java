@@ -38,11 +38,11 @@ public class SegundaVentana extends javax.swing.JDialog {
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
         jBotonRegistrar = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel1RCitas = new javax.swing.JLabel();
         jSpinner2 = new javax.swing.JSpinner();
         jLabelFecha1 = new javax.swing.JLabel();
         jSpinner3 = new javax.swing.JSpinner();
-        jLabel2 = new javax.swing.JLabel();
+        jLabelAño = new javax.swing.JLabel();
         jSpinner4 = new javax.swing.JSpinner();
         jSpinnerHora = new javax.swing.JSpinner();
         jSpinnerHorario = new javax.swing.JSpinner();
@@ -71,8 +71,8 @@ public class SegundaVentana extends javax.swing.JDialog {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI Symbol", 1, 24)); // NOI18N
-        jLabel1.setText("Registro de Citas");
+        jLabel1RCitas.setFont(new java.awt.Font("Segoe UI Symbol", 1, 24)); // NOI18N
+        jLabel1RCitas.setText("Registro de Citas");
 
         jSpinner2.setModel(new javax.swing.SpinnerNumberModel(1, 1, 31, 1));
 
@@ -80,7 +80,7 @@ public class SegundaVentana extends javax.swing.JDialog {
 
         jSpinner3.setModel(new javax.swing.SpinnerListModel(new String[] {"Enero", "Febrero", "Marzo", "Abril", "Mayo ", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"}));
 
-        jLabel2.setText("Año:");
+        jLabelAño.setText("Año:");
 
         jSpinner4.setModel(new javax.swing.SpinnerListModel(new String[] {"2024", "2025", "2026", "2027", "2028", "2029", "2030"}));
 
@@ -98,7 +98,7 @@ public class SegundaVentana extends javax.swing.JDialog {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1)
+                .addComponent(jLabel1RCitas)
                 .addGap(110, 110, 110))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
@@ -125,7 +125,7 @@ public class SegundaVentana extends javax.swing.JDialog {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jSpinner3, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel2)
+                        .addComponent(jLabelAño)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jSpinner4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
@@ -142,7 +142,7 @@ public class SegundaVentana extends javax.swing.JDialog {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(11, Short.MAX_VALUE)
-                .addComponent(jLabel1)
+                .addComponent(jLabel1RCitas)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabelNombre)
@@ -165,7 +165,7 @@ public class SegundaVentana extends javax.swing.JDialog {
                     .addComponent(jSpinner2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabelFecha1)
                     .addComponent(jSpinner3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2)
+                    .addComponent(jLabelAño)
                     .addComponent(jSpinner4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -239,9 +239,9 @@ public class SegundaVentana extends javax.swing.JDialog {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jBotonRegistrar;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel1RCitas;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabelAño;
     private javax.swing.JLabel jLabelCosto;
     private javax.swing.JLabel jLabelDescripcion;
     private javax.swing.JLabel jLabelFecha;
